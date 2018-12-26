@@ -1,0 +1,69 @@
+
+<p>
+  <strong>Customer Name:</strong>
+  <%= @customer.company_name %>
+</p>
+
+<p>
+  <strong>Customer Street Number:</strong>
+  <%= @customer.street_number %>
+</p>
+
+<p>
+  <strong>Customer Street Name:</strong>
+  <%= @customer.street_name %>
+</p>
+
+<p>
+  <strong>Customer City:</strong>
+  <%= @customer.city %>
+</p>
+
+<p>
+  <strong>Customer State:</strong>
+  <%= @customer.state %>
+</p>
+
+<p>
+  <strong>Customer Zip Code:</strong>
+  <%= @customer.zip_code %>
+</p>
+
+<p>
+  <strong>Electrical Energy Consumption:</strong>
+  <%= @customer.electrical_energy_consumption %>
+</p>
+
+<p>
+  <strong>Electrical Utility Bill:</strong>
+  <%= @customer.electrical_utility_bill %>
+</p>
+
+<p>
+  <strong>Thermal Energy Consumption:</strong>
+  <%= @customer.thermal_energy_consumption %>
+</p>
+
+<p>
+  <strong>Composite Score:</strong>
+  <%= @customer.composite_score %>
+</p>
+
+<p>
+  <strong>Sunlight Hours:</strong>
+  <%= @customer.sunlight_hours %>
+</p>
+
+<p>
+  <strong>Roof Space:</strong>
+  <%= @customer.roof_space %>
+</p>
+
+<p>
+  <strong>Savings:</strong>
+  <%= @customer.savings %>
+</p>
+
+
+<%= link_to 'Back To New', new_customers_path %>
+<%= link_to 'Ranked List', ranking_list_path %>

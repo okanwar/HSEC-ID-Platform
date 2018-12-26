@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  company_name: MyString
+  street_number: MyString
+  street_name: MyString
+  city: MyString
+  state: MyString
+  zip_code: MyString
+  electrical_utility_bill: MyString
+  electrical_energy_consumption: MyString
+  thermal_energy_consumption: MyString
+  composite_score: MyString
+  ranking: MyString
+  sunlight_hours: MyString
+  roof_space: MyString
+  savings: MyString
+
+two:
+  company_name: MyString
+  street_number: MyString
+  street_name: MyString
+  city: MyString
+  state: MyString
+  zip_code: MyString
+  electrical_utility_bill: MyString
+  electrical_energy_consumption: MyString
+  thermal_energy_consumption: MyString
+  composite_score: MyString
+  ranking: MyString
+  sunlight_hours: MyString
+  roof_space: MyString
+  savings: MyString

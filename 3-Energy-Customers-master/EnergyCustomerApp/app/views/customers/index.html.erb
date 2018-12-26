@@ -1,0 +1,29 @@
+<h1>Customer List</h1>
+
+<%= link_to 'New customer', new_customers_path %>
+
+<table>
+    <tr>
+        <th>Company Name</th>
+        <th>Electrical Utility Bill</th>
+        <th>Electrical Energy Consumption</th>
+        <th>Thermal Energy Consumption</th>
+        <th>Composite Score</th>
+        <th>Ranking</th>
+        <th></th>
+    </tr>
+    
+    <% @customers.each do |customer| %>
+        <tr>
+            <td><%= customer.company_name %></td>
+            <td><%= customer.electrical_utility_bill %></td>
+            <td><%= customer.electrical_energy_consumption %></td>
+            <td><%= customer.thermal_energy_consumption %></td>
+            <td><%= customer.composite_score %></td>
+            <td><%= customer.ranking %></td>
+            <td><%= link_to 'Show', customers_path(customer) %></td>
+            <td><%= link_to 'Edit', edit_customers_path %></td>
+            <td><%= link_to 'Delete', customers_path(customer), method: :delete %></td>
+        </tr>
+    <% end %>
+</table>
